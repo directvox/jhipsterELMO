@@ -1,0 +1,12 @@
+{
+    "jhipsterElMoApp": {
+        "StatutDemande": {
+            "null": "",
+            "ENCOURS": "ENCOURS",
+            "TERMINE": "TERMINE",
+            "REFUSE": "REFUSE",
+            "ATTENTE": "ATTENTE",
+            "ANNULE": "ANNULE"
+        }
+    }
+}

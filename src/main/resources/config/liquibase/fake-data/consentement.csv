@@ -1,0 +1,11 @@
+id;type_consentement;date_consentement;consentement_recherche;consentement_pdf;consentement_pdf_content_type;date_supprimer_consentement
+1;DEMANDE;2019-12-02T01:04:10;true;../fake-data/blob/hipster.png;image/png;2019-12-02T02:18:47
+2;DSQ;2019-12-02T07:46:45;true;../fake-data/blob/hipster.png;image/png;2019-12-02T04:23:45
+3;DEMANDE;2019-12-02T18:43:22;false;../fake-data/blob/hipster.png;image/png;2019-12-01T22:55:32
+4;DEMANDE;2019-12-02T00:44:44;true;../fake-data/blob/hipster.png;image/png;2019-12-02T03:39:17
+5;DEMANDE;2019-12-02T09:20:07;false;../fake-data/blob/hipster.png;image/png;2019-12-02T03:17:13
+6;DSQ;2019-12-02T19:42:03;true;../fake-data/blob/hipster.png;image/png;2019-12-02T02:49:09
+7;DEMANDE;2019-12-02T03:41:58;true;../fake-data/blob/hipster.png;image/png;2019-12-02T06:56:07
+8;DEMANDE;2019-12-02T07:00:30;false;../fake-data/blob/hipster.png;image/png;2019-12-01T22:17:30
+9;DSQ;2019-12-02T11:19:24;false;../fake-data/blob/hipster.png;image/png;2019-12-02T00:07:23
+10;DEMANDE;2019-12-02T14:40:18;true;../fake-data/blob/hipster.png;image/png;2019-12-02T09:15:22
