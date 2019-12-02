@@ -38,6 +38,20 @@ public class CacheConfiguration {
             cm.createCache(io.github.jhipster.application.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(io.github.jhipster.application.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(io.github.jhipster.application.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            createCache(cm, io.github.jhipster.application.domain.SpecClinique.class.getName());
+            createCache(cm, io.github.jhipster.application.domain.SpecClinique.class.getName() + ".destinataires");
+            createCache(cm, io.github.jhipster.application.domain.DemandeDeService.class.getName());
+            createCache(cm, io.github.jhipster.application.domain.DemandeDeService.class.getName() + ".formulaireEvaluations");
+            createCache(cm, io.github.jhipster.application.domain.AttachementDemandeDeService.class.getName());
+            createCache(cm, io.github.jhipster.application.domain.Patient.class.getName());
+            createCache(cm, io.github.jhipster.application.domain.Destinataire.class.getName());
+            createCache(cm, io.github.jhipster.application.domain.Destinataire.class.getName() + ".specCliniques");
+            createCache(cm, io.github.jhipster.application.domain.Intervenant.class.getName());
+            createCache(cm, io.github.jhipster.application.domain.FormulaireEvaluation.class.getName());
+            createCache(cm, io.github.jhipster.application.domain.FormulaireEvaluation.class.getName() + ".demandeDeServices");
+            createCache(cm, io.github.jhipster.application.domain.FormulaireConsentement.class.getName());
+            createCache(cm, io.github.jhipster.application.domain.Consentement.class.getName());
+            createCache(cm, io.github.jhipster.application.domain.ReponseDemandeDeService.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

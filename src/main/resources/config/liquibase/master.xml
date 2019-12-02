@@ -5,6 +5,23 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191202214919_added_entity_SpecClinique.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191202214920_added_entity_DemandeDeService.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191202214921_added_entity_AttachementDemandeDeService.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191202214922_added_entity_Patient.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191202214923_added_entity_Destinataire.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191202214924_added_entity_Intervenant.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191202214925_added_entity_FormulaireEvaluation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191202214926_added_entity_FormulaireConsentement.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191202214927_added_entity_Consentement.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191202214928_added_entity_ReponseDemandeDeService.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20191202214919_added_entity_constraints_SpecClinique.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191202214920_added_entity_constraints_DemandeDeService.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191202214921_added_entity_constraints_AttachementDemandeDeService.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191202214923_added_entity_constraints_Destinataire.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191202214926_added_entity_constraints_FormulaireConsentement.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191202214927_added_entity_constraints_Consentement.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191202214928_added_entity_constraints_ReponseDemandeDeService.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>
